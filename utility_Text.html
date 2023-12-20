@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- Text Alignment -->
+    <p class="p-2 border border-dark text-start">
+      Bangun kariermu sebagai developer profesional bersama Dicoding Indonesia
+    </p>
+    <p class="p-2 border border-dark text-center">
+      Bangun kariermu sebagai developer profesional bersama Dicoding Indonesia
+    </p>
+    <p class="p-2 border border-dark text-end">
+      Bangun kariermu sebagai developer profesional bersama Dicoding Indonesia
+    </p>
+
+    <!-- Text Wrap -->
+    <div class="bg-primary text-bg-primary text-wrap" style="width: 5rem">
+      Bangun kariermu sebagai developer profesional bersama Dicoding Indonesia
+    </div>
+    <br />
+    <!-- Text No Wrap -->
+    <div class="bg-warning text-nowrap" style="width: 5rem">
+      Bangun kariermu sebagai developer profesional bersama Dicoding Indonesia
+    </div>
+    <br />
+
+    <!-- Font Size -->
+    <p class="fs-1">Teks dengan fs-1 atau 2.5rem</p>
+    <p class="fs-2">Teks dengan fs-2 atau 2rem</p>
+    <p class="fs-3">Teks dengan fs-3 atau 1.75rem</p>
+    <p class="fs-4">Teks dengan fs-4 atau 1.5rem</p>
+    <p class="fs-5">Teks dengan fs-5 atau 1.25rem</p>
+    <p class="fs-6">Teks dengan fs-6 atau 1rem</p>
+    <br />
+
+    <!-- Font Weight -->
+    <p class="fw-bold">Teks dengan fw-bold atau 700</p>
+    <p class="fw-bolder">Teks dengan fw-bolder atau bolder</p>
+    <p class="fw-semibold">Teks dengan fw-semibold atau 600</p>
+    <p class="fw-normal">Teks dengan fw-normal atau 400</p>
+    <p class="fw-light">Teks dengan fw-light atau 300</p>
+    <p class="fw-lighter">Teks dengan fw-lighter atau lighter</p>
+    <br />
+
+    <!-- Text Decoration -->
+    <p class="text-decoration-underline">
+      Menjadi Front-End Web Developer Expert
+    </p>
+    <p class="text-decoration-line-through">Merokok</p>
+    <a href="https://www.dicoding.com/" class="text-decoration-none"
+      >www.dicoding.com</a
+    >
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      const toast = new bootstrap.Toast(document.getElementById("liveToast"));
+      toast.show();
+    </script>
+  </body>
+</html>
